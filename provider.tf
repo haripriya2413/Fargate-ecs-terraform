@@ -11,3 +11,4 @@ terraform {
     key    = "ecs-fargate/terraform.tfstate"
     region = "us-east-1"
   }
+}
