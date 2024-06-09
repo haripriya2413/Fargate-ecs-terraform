@@ -2,12 +2,12 @@
 
 variable "aws_access_key" {
     description = "The IAM public access key"
-    default= ${{ secrets.AWS_ACCESS_KEY_ID }}
+    default= {{ secrets.AWS_ACCESS_KEY_ID }}
 }
 
 variable "aws_secret_key" {
     description = "IAM secret access key"
-    default= ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+    default= {{ secrets.AWS_SECRET_ACCESS_KEY }}
 
 variable "aws_region" {
     description = "The AWS region things are created in"
