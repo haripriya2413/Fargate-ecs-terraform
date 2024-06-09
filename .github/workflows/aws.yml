@@ -24,8 +24,8 @@ jobs:
 
     - name: Build and Push Docker image
       run: |
-        docker build -t your-dockerhub-username/hello-world-nodejs:latest .
-        docker push your-dockerhub-username/hello-world-nodejs:latest
+        docker build -t priya247/nodejs-helloworld:latest .
+        docker push priya247/nodejs-helloworld:latest
 
   deploy:
     needs: build
