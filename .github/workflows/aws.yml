@@ -51,8 +51,7 @@ jobs:
 
     - name: Initialize Terraform
       run: terraform init
-    - name: Terraform plan
-      run: terraform plan
+    
        
     - name: Terraform Apply
       env:
